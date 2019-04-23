@@ -1,4 +1,4 @@
-module github.com/blitzprog/color
+module github.com/akyoto/color
 
 go 1.12
 
