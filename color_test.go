@@ -158,36 +158,67 @@ func TestNoColor(t *testing.T) {
 }
 
 func TestColorVisual(t *testing.T) {
+	var err error
+
 	// First Visual Test
 	Output = colorable.NewColorableStdout()
 
 	New(FgRed).Printf("red\t")
 	New(BgRed).Print("         ")
-	New(FgRed, Bold).Println(" red")
+	_, err = New(FgRed, Bold).Println(" red")
+
+	if err != nil {
+		panic(err)
+	}
 
 	New(FgGreen).Printf("green\t")
 	New(BgGreen).Print("         ")
-	New(FgGreen, Bold).Println(" green")
+	_, err = New(FgGreen, Bold).Println(" green")
+
+	if err != nil {
+		panic(err)
+	}
 
 	New(FgYellow).Printf("yellow\t")
 	New(BgYellow).Print("         ")
-	New(FgYellow, Bold).Println(" yellow")
+	_, err = New(FgYellow, Bold).Println(" yellow")
+
+	if err != nil {
+		panic(err)
+	}
 
 	New(FgBlue).Printf("blue\t")
 	New(BgBlue).Print("         ")
-	New(FgBlue, Bold).Println(" blue")
+	_, err = New(FgBlue, Bold).Println(" blue")
+
+	if err != nil {
+		panic(err)
+	}
 
 	New(FgMagenta).Printf("magenta\t")
 	New(BgMagenta).Print("         ")
-	New(FgMagenta, Bold).Println(" magenta")
+	_, err = New(FgMagenta, Bold).Println(" magenta")
+
+	if err != nil {
+		panic(err)
+	}
 
 	New(FgCyan).Printf("cyan\t")
 	New(BgCyan).Print("         ")
-	New(FgCyan, Bold).Println(" cyan")
+	_, err = New(FgCyan, Bold).Println(" cyan")
+
+	if err != nil {
+		panic(err)
+	}
 
 	New(FgWhite).Printf("white\t")
 	New(BgWhite).Print("         ")
-	New(FgWhite, Bold).Println(" white")
+	_, err = New(FgWhite, Bold).Println(" white")
+
+	if err != nil {
+		panic(err)
+	}
+
 	fmt.Println("")
 
 	// Second Visual test
