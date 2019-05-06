@@ -1,19 +1,38 @@
-# fatih/color with Go modules
+# color
 
-[![Reference][godoc-image]][godoc-url]
-[![Report][goreportcard-image]][goreportcard-url]
+[![Godoc][godoc-image]][godoc-url]
+[![Report][report-image]][report-url]
 [![Tests][tests-image]][tests-url]
-[![Coverage][codecov-image]][codecov-url]
+[![Coverage][coverage-image]][coverage-url]
+[![Patreon][patreon-image]][patreon-url]
 
 See [fatih/color](https://github.com/fatih/color).
 
-[godoc-image]: https://godoc.org/github.com/akyoto/color?status.svg
-[godoc-url]: https://godoc.org/github.com/akyoto/color
-[goreportcard-image]: https://goreportcard.com/badge/github.com/akyoto/color
-[goreportcard-url]: https://goreportcard.com/report/github.com/akyoto/color
-[tests-image]: https://cloud.drone.io/api/badges/akyoto/color/status.svg
-[tests-url]: https://cloud.drone.io/akyoto/color
-[codecov-image]: https://codecov.io/gh/akyoto/color/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/akyoto/color
-[sourcegraph-image]: https://sourcegraph.com/github.com/akyoto/color/-/badge.svg
-[sourcegraph-url]: https://sourcegraph.com/github.com/akyoto/color?badge
+## Coding style
+
+Please take a look at the [style guidelines](https://github.com/akyoto/quality/blob/master/STYLE.md) if you'd like to make a pull request.
+
+## Patrons
+
+| [![Scott Rayapoullé](https://avatars3.githubusercontent.com/u/11772084?s=70&v=4)](https://github.com/soulcramer) |
+|---|
+| [Scott Rayapoullé](https://github.com/soulcramer) |
+
+Want to see [your own name here](https://www.patreon.com/eduardurbach)?
+
+## Author
+
+| [![Eduard Urbach on Twitter](https://gravatar.com/avatar/16ed4d41a5f244d1b10de1b791657989?s=70)](https://twitter.com/eduardurbach "Follow @eduardurbach on Twitter") |
+|---|
+| [Eduard Urbach](https://eduardurbach.com) |
+
+[godoc-image]: https://godoc.org/github.com/blitzprog/home?status.svg
+[godoc-url]: https://godoc.org/github.com/blitzprog/home
+[report-image]: https://goreportcard.com/badge/github.com/blitzprog/home
+[report-url]: https://goreportcard.com/report/github.com/blitzprog/home
+[tests-image]: https://cloud.drone.io/api/badges/blitzprog/home/status.svg
+[tests-url]: https://cloud.drone.io/blitzprog/home
+[coverage-image]: https://codecov.io/gh/blitzprog/home/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/blitzprog/home
+[patreon-image]: https://img.shields.io/badge/patreon-donate-green.svg
+[patreon-url]: https://www.patreon.com/eduardurbach
