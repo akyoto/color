@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mattn/go-colorable"
+	"github.com/akyoto/colorable"
 )
 
 // Testing colors is kinda different. First we test for given colors and their
