@@ -136,7 +136,7 @@ func (c *Color) Set() *Color {
 		return c
 	}
 
-	fmt.Fprintf(Output, c.format())
+	fmt.Fprint(Output, c.format())
 	return c
 }
 
@@ -153,7 +153,7 @@ func (c *Color) setWriter(w io.Writer) *Color {
 		return c
 	}
 
-	fmt.Fprintf(w, c.format())
+	fmt.Fprint(w, c.format())
 	return c
 }
 
