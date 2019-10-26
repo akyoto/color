@@ -148,13 +148,12 @@ func (c *Color) unset() {
 	Unset()
 }
 
-func (c *Color) setWriter(w io.Writer) *Color {
+func (c *Color) setWriter(w io.Writer) {
 	if c.isNoColorSet() {
-		return c
+		return
 	}
 
 	fmt.Fprint(w, c.format())
-	return c
 }
 
 func (c *Color) unsetWriter(w io.Writer) {
